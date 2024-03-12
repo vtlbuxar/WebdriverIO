@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "((//*[name()='svg'][@focusable='false'])[2])"
+}

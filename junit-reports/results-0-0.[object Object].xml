@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="1">
+  <testsuite name="1st recording" timestamp="2024-03-11T20:09:48" time="0.008" tests="1" failures="0" errors="0" skipped="1">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="1st recording"/>
+      <property name="capabilities" value="chrome.122_0_6261_112.windows"/>
+      <property name="file" value="file:///D:/webdriverIO/Webdriverio_project_01/test/specs/1st%20recording.js"/>
+    </properties>
+    <testcase classname="chrome.122_0_6261_112.windows.1st_recording" name="tests 1st recording" time="0">
+      <skipped/>
+      <system-out><![CDATA[
+COMMAND: DELETE /session/f8c90030401893bbeea65e331cb5863a - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

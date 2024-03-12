@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="1" failures="0" errors="0" skipped="1">
-  <testsuite name="1st recording" timestamp="2024-03-11T20:09:48" time="0.008" tests="1" failures="0" errors="0" skipped="1">
+  <testsuite name="1st recording" timestamp="2024-03-12T15:59:57" time="0.002" tests="1" failures="0" errors="0" skipped="1">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="1st recording"/>
@@ -10,7 +10,7 @@
     <testcase classname="chrome.122_0_6261_112.windows.1st_recording" name="tests 1st recording" time="0">
       <skipped/>
       <system-out><![CDATA[
-COMMAND: DELETE /session/f8c90030401893bbeea65e331cb5863a - {}
+COMMAND: DELETE /session/c3dcf552fa0037a4a05aa4ada442877e - {}
 RESULT: {}
 ]]></system-out>
     </testcase>

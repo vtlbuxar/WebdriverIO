@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="1" failures="0" errors="0" skipped="0">
-  <testsuite name="demo test" timestamp="2024-03-11T20:09:48" time="4.584" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="demo test" timestamp="2024-03-12T15:59:58" time="9.417" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="demo test"/>
       <property name="capabilities" value="chrome.122_0_6261_112.windows"/>
       <property name="file" value="file:///D:/webdriverIO/Webdriverio_project_01/test/specs/test1.spec.js"/>
     </properties>
-    <testcase classname="chrome.122_0_6261_112.windows.demo_test" name="my 1st test" time="4.571">
+    <testcase classname="chrome.122_0_6261_112.windows.demo_test" name="my 1st test" time="9.415">
       <system-out><![CDATA[
-COMMAND: POST /session/8f5e565d4daa759fcae4ca79b2f3ad5e/element - {"using":"css selector","value":"[name=\"q\"]"}
-COMMAND: POST /session/8f5e565d4daa759fcae4ca79b2f3ad5e/url - {"url":"https://www.google.com/"}
+COMMAND: POST /session/0208729f1682185feb4777c62b1131b4/element - {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/0208729f1682185feb4777c62b1131b4/url - {"url":"https://www.google.com/"}
 RESULT: {"using":"css selector","value":"[name=\"q\"]"}
-COMMAND: POST /session/8f5e565d4daa759fcae4ca79b2f3ad5e/elements - {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/0208729f1682185feb4777c62b1131b4/elements - {"using":"css selector","value":"[name=\"q\"]"}
 RESULT: {"url":"https://www.google.com/"}
 RESULT: {"using":"css selector","value":"[name=\"q\"]"}
-COMMAND: POST /session/8f5e565d4daa759fcae4ca79b2f3ad5e/element - {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/0208729f1682185feb4777c62b1131b4/element - {"using":"css selector","value":"[name=\"q\"]"}
 RESULT: {"using":"css selector","value":"[name=\"q\"]"}
-COMMAND: POST /session/8f5e565d4daa759fcae4ca79b2f3ad5e/element/f.24B4F9F67D4D68262224F3D08680662B.d.404796CF474F490E5A7EAEFABA96C47B.e.1/clear - {}
+COMMAND: POST /session/0208729f1682185feb4777c62b1131b4/element/f.0456EE5EE32BAA5F5296FDFE425DC940.d.1223579F087EE1993ED9E9C792CC0C2A.e.1/clear - {}
 RESULT: {}
-COMMAND: POST /session/8f5e565d4daa759fcae4ca79b2f3ad5e/element/f.24B4F9F67D4D68262224F3D08680662B.d.404796CF474F490E5A7EAEFABA96C47B.e.1/value - {"text":"Webdriverio"}
+COMMAND: POST /session/0208729f1682185feb4777c62b1131b4/element/f.0456EE5EE32BAA5F5296FDFE425DC940.d.1223579F087EE1993ED9E9C792CC0C2A.e.1/value - {"text":"Webdriverio"}
 RESULT: {"text":"Webdriverio"}
-COMMAND: POST /session/8f5e565d4daa759fcae4ca79b2f3ad5e/element - {"using":"xpath","value":"(//input[@name='btnK'])[2]"}
+COMMAND: POST /session/0208729f1682185feb4777c62b1131b4/element - {"using":"xpath","value":"(//input[@name='btnK'])[2]"}
 RESULT: {"using":"xpath","value":"(//input[@name='btnK'])[2]"}
-COMMAND: POST /session/8f5e565d4daa759fcae4ca79b2f3ad5e/element/f.24B4F9F67D4D68262224F3D08680662B.d.404796CF474F490E5A7EAEFABA96C47B.e.16/click - {}
+COMMAND: POST /session/0208729f1682185feb4777c62b1131b4/element/f.0456EE5EE32BAA5F5296FDFE425DC940.d.1223579F087EE1993ED9E9C792CC0C2A.e.16/click - {}
 RESULT: {}
-COMMAND: POST /session/8f5e565d4daa759fcae4ca79b2f3ad5e/element - {"using":"xpath","value":"((//*[name()='svg'][@focusable='false'])[2])"}
+COMMAND: POST /session/0208729f1682185feb4777c62b1131b4/element - {"using":"xpath","value":"((//*[name()='svg'][@focusable='false'])[2])"}
 RESULT: {"using":"xpath","value":"((//*[name()='svg'][@focusable='false'])[2])"}
-COMMAND: POST /session/8f5e565d4daa759fcae4ca79b2f3ad5e/element/f.24B4F9F67D4D68262224F3D08680662B.d.A43A1C849B6A98CC63EF31ED5A322774.e.33/click - {}
+COMMAND: POST /session/0208729f1682185feb4777c62b1131b4/element/f.0456EE5EE32BAA5F5296FDFE425DC940.d.DC18401D50C2DB10BF4737256B56AB6D.e.51/click - {}
 RESULT: {}
-COMMAND: POST /session/8f5e565d4daa759fcae4ca79b2f3ad5e/element - {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/0208729f1682185feb4777c62b1131b4/element - {"using":"css selector","value":"[name=\"q\"]"}
 RESULT: {"using":"css selector","value":"[name=\"q\"]"}
-COMMAND: POST /session/8f5e565d4daa759fcae4ca79b2f3ad5e/element/f.24B4F9F67D4D68262224F3D08680662B.d.A43A1C849B6A98CC63EF31ED5A322774.e.28/clear - {}
+COMMAND: POST /session/0208729f1682185feb4777c62b1131b4/element/f.0456EE5EE32BAA5F5296FDFE425DC940.d.DC18401D50C2DB10BF4737256B56AB6D.e.26/clear - {}
 RESULT: {}
-COMMAND: POST /session/8f5e565d4daa759fcae4ca79b2f3ad5e/element/f.24B4F9F67D4D68262224F3D08680662B.d.A43A1C849B6A98CC63EF31ED5A322774.e.28/value - {"text":"Puri jagannath"}
+COMMAND: POST /session/0208729f1682185feb4777c62b1131b4/element/f.0456EE5EE32BAA5F5296FDFE425DC940.d.DC18401D50C2DB10BF4737256B56AB6D.e.26/value - {"text":"Puri jagannath"}
 RESULT: {"text":"Puri jagannath"}
-COMMAND: POST /session/8f5e565d4daa759fcae4ca79b2f3ad5e/actions - {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
-COMMAND: DELETE /session/8f5e565d4daa759fcae4ca79b2f3ad5e - {}
+COMMAND: POST /session/0208729f1682185feb4777c62b1131b4/actions - {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/0208729f1682185feb4777c62b1131b4 - {}
 RESULT: {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
 RESULT: {}
 ]]></system-out>

@@ -1,41 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="1" failures="0" errors="0" skipped="0">
-  <testsuite name="My Login application" timestamp="2024-03-12T15:59:57" time="7.115" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Demo test" timestamp="2024-03-15T13:59:20" time="35.188" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
-      <property name="suiteName" value="My Login application"/>
+      <property name="suiteName" value="Demo test"/>
       <property name="capabilities" value="chrome.122_0_6261_112.windows"/>
-      <property name="file" value="file:///D:/webdriverIO/Webdriverio_project_01/test/specs/test.e2e.js"/>
+      <property name="file" value="file:///D:/webdriverIO/Webdriverio_project_01/test/specs/login.spec.js"/>
     </properties>
-    <testcase classname="chrome.122_0_6261_112.windows.My_Login_application" name="should login with valid credentials" time="7.113">
+    <testcase classname="chrome.122_0_6261_112.windows.Demo_test" name="Login test" time="35.185">
       <system-out><![CDATA[
-COMMAND: POST /session/03adfe8539b2328d484a7ac164be69da/url - {"url":"https://the-internet.herokuapp.com/login"}
-RESULT: {"url":"https://the-internet.herokuapp.com/login"}
-COMMAND: POST /session/03adfe8539b2328d484a7ac164be69da/element - {"using":"css selector","value":"#username"}
-RESULT: {"using":"css selector","value":"#username"}
-COMMAND: POST /session/03adfe8539b2328d484a7ac164be69da/element/f.020F016479D9301851C40C99C83E2FB1.d.AAB12C8F93CDF0244AF3FE872AE8BC20.e.4/clear - {}
+COMMAND: POST /session/dcee277e88226cb3cb028f1857d856e6/url - {"url":"https://www.timeanddate.com/worldclock/philippines/manila"}
+RESULT: {"url":"https://www.timeanddate.com/worldclock/philippines/manila"}
+COMMAND: POST /session/dcee277e88226cb3cb028f1857d856e6/element - {"using":"xpath","value":"//h1[normalize-space()='Current Local Time in Manila, Philippines']"}
+RESULT: {"using":"xpath","value":"//h1[normalize-space()='Current Local Time in Manila, Philippines']"}
+COMMAND: GET /session/dcee277e88226cb3cb028f1857d856e6/element/f.5A7893AEE97B3CFE11BFD9D8BC6D101A.d.13152870E349F32FEC34F2C5885EAFBB.e.22/text - {}
 RESULT: {}
-COMMAND: POST /session/03adfe8539b2328d484a7ac164be69da/element/f.020F016479D9301851C40C99C83E2FB1.d.AAB12C8F93CDF0244AF3FE872AE8BC20.e.4/value - {"text":"tomsmith"}
-RESULT: {"text":"tomsmith"}
-COMMAND: POST /session/03adfe8539b2328d484a7ac164be69da/element - {"using":"css selector","value":"#password"}
-RESULT: {"using":"css selector","value":"#password"}
-COMMAND: POST /session/03adfe8539b2328d484a7ac164be69da/element/f.020F016479D9301851C40C99C83E2FB1.d.AAB12C8F93CDF0244AF3FE872AE8BC20.e.5/clear - {}
-RESULT: {}
-COMMAND: POST /session/03adfe8539b2328d484a7ac164be69da/element/f.020F016479D9301851C40C99C83E2FB1.d.AAB12C8F93CDF0244AF3FE872AE8BC20.e.5/value - {"text":"SuperSecretPassword!"}
-RESULT: {"text":"SuperSecretPassword!"}
-COMMAND: POST /session/03adfe8539b2328d484a7ac164be69da/element - {"using":"css selector","value":"button[type=\"submit\"]"}
-RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
-COMMAND: POST /session/03adfe8539b2328d484a7ac164be69da/element/f.020F016479D9301851C40C99C83E2FB1.d.AAB12C8F93CDF0244AF3FE872AE8BC20.e.6/click - {}
-RESULT: {}
-COMMAND: POST /session/03adfe8539b2328d484a7ac164be69da/element - {"using":"css selector","value":"#flash"}
-RESULT: {"using":"css selector","value":"#flash"}
-COMMAND: POST /session/03adfe8539b2328d484a7ac164be69da/elements - {"using":"css selector","value":"#flash"}
-RESULT: {"using":"css selector","value":"#flash"}
-COMMAND: POST /session/03adfe8539b2328d484a7ac164be69da/element - {"using":"css selector","value":"#flash"}
-RESULT: {"using":"css selector","value":"#flash"}
-COMMAND: GET /session/03adfe8539b2328d484a7ac164be69da/element/f.020F016479D9301851C40C99C83E2FB1.d.E8B6BF0492DBDE3DB6CD60AF671C155E.e.14/text - {}
-RESULT: {}
-COMMAND: DELETE /session/03adfe8539b2328d484a7ac164be69da - {}
+COMMAND: DELETE /session/dcee277e88226cb3cb028f1857d856e6 - {}
 RESULT: {}
 ]]></system-out>
     </testcase>

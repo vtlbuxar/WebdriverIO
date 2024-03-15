@@ -1,4 +1,4 @@
-const loginPage = require("../pages/login.page");
+//const loginPage = require("../pages/login.page");
 const LoginPage = require("../pages/login.page");
 describe("Demo test", () => {
   it("Login test", async () => {

@@ -97,7 +97,8 @@ class BlazeMeter {
     await this.Username.setValue(User_name);
     await this.password.setValue(Pass_word);
     await this.signinBTN_AfterUN_PW.click();
-    await this.creataPerformanceTest.isDisplayed(true);
+    await browser.pause(10000);
+    await await this.creataPerformanceTest.isDisplayed(true);
   }
 }
 module.exports = new BlazeMeter();

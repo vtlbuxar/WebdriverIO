@@ -1,39 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="1" failures="0" errors="0" skipped="0">
-  <testsuite name="Demo test" timestamp="2024-03-12T15:59:57" time="7.041" tests="1" failures="0" errors="0" skipped="0">
+<testsuites tests="4" failures="1" errors="1" skipped="0">
+  <testsuite name="Blazemeter tests" timestamp="2024-03-15T13:59:20" time="44.286" tests="4" failures="1" errors="1" skipped="0">
     <properties>
       <property name="specId" value="0"/>
-      <property name="suiteName" value="Demo test"/>
+      <property name="suiteName" value="Blazemeter tests"/>
       <property name="capabilities" value="chrome.122_0_6261_112.windows"/>
-      <property name="file" value="file:///D:/webdriverIO/Webdriverio_project_01/test/specs/login.spec.js"/>
+      <property name="file" value="file:///D:/webdriverIO/Webdriverio_project_01/test/specs/blazemetertest.spec.js"/>
     </properties>
-    <testcase classname="chrome.122_0_6261_112.windows.Demo_test" name="Login test" time="7.04">
+    <testcase classname="chrome.122_0_6261_112.windows.Blazemeter_tests" name="Web 01 Verify that upon tapping on Perforce Button user should see the TRY FREE button" time="9.281">
       <system-out><![CDATA[
-COMMAND: POST /session/8a6de9512dd3ceda9ef5096c3507a074/url - {"url":"https://the-internet.herokuapp.com/login"}
-RESULT: {"url":"https://the-internet.herokuapp.com/login"}
-COMMAND: POST /session/8a6de9512dd3ceda9ef5096c3507a074/element - {"using":"css selector","value":"#username"}
-RESULT: {"using":"css selector","value":"#username"}
-COMMAND: POST /session/8a6de9512dd3ceda9ef5096c3507a074/element/f.FC6BE493779A8F4EB605103036F4D34A.d.0D5C46FDC465C5FD0D1FA4A17FBD87FF.e.4/clear - {}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/url - {"url":"https://www.blazemeter.com/product/blazemeter"}
+RESULT: {"url":"https://www.blazemeter.com/product/blazemeter"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/window/maximize - {}
 RESULT: {}
-COMMAND: POST /session/8a6de9512dd3ceda9ef5096c3507a074/element/f.FC6BE493779A8F4EB605103036F4D34A.d.0D5C46FDC465C5FD0D1FA4A17FBD87FF.e.4/value - {"text":"tomsmith"}
-RESULT: {"text":"tomsmith"}
-COMMAND: POST /session/8a6de9512dd3ceda9ef5096c3507a074/element - {"using":"css selector","value":"#password"}
-RESULT: {"using":"css selector","value":"#password"}
-COMMAND: POST /session/8a6de9512dd3ceda9ef5096c3507a074/element/f.FC6BE493779A8F4EB605103036F4D34A.d.0D5C46FDC465C5FD0D1FA4A17FBD87FF.e.5/clear - {}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element - {"using":"css selector","value":"#SvgjsSvg1033"}
+RESULT: {"using":"css selector","value":"#SvgjsSvg1033"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.F49955A700E66A6F7CE710C2862A564F.e.61/click - {}
 RESULT: {}
-COMMAND: POST /session/8a6de9512dd3ceda9ef5096c3507a074/element/f.FC6BE493779A8F4EB605103036F4D34A.d.0D5C46FDC465C5FD0D1FA4A17FBD87FF.e.5/value - {"text":"SuperSecretPassword!"}
-RESULT: {"text":"SuperSecretPassword!"}
-COMMAND: POST /session/8a6de9512dd3ceda9ef5096c3507a074/element - {"using":"css selector","value":"button[type=\"submit\"]"}
-RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
-COMMAND: POST /session/8a6de9512dd3ceda9ef5096c3507a074/element/f.FC6BE493779A8F4EB605103036F4D34A.d.0D5C46FDC465C5FD0D1FA4A17FBD87FF.e.6/click - {}
-RESULT: {}
-COMMAND: POST /session/8a6de9512dd3ceda9ef5096c3507a074/element - {"using":"css selector","value":"#flash"}
-RESULT: {"using":"css selector","value":"#flash"}
-COMMAND: GET /session/8a6de9512dd3ceda9ef5096c3507a074/element/f.FC6BE493779A8F4EB605103036F4D34A.d.CA01C0CD32312E1E85688A7F08F8AECB.e.14/text - {}
-RESULT: {}
-COMMAND: DELETE /session/8a6de9512dd3ceda9ef5096c3507a074 - {}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element - {"using":"css selector","value":".try-for-free"}
+RESULT: {"using":"css selector","value":".try-for-free"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (8289 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.063D864A26FCB3998F4529DF2C6FDDBC.d.A4E63DFB4F35EF2583AD0E88903237D5.e.21","ELEMENT":"f.063D864A26FCB3998F4529DF2C6FDDBC.d.A4E63DFB4F35EF2583AD0E88903237D5.e.21"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (8289 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.063D864A26FCB3998F4529DF2C6FDDBC.d.A4E63DFB4F35EF2583AD0E88903237D5.e.21","ELEMENT":"f.063D864A26FCB3998F4529DF2C6FDDBC.d.A4E63DFB4F35EF2583AD0E88903237D5.e.21"}]}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element - {"using":"css selector","value":".try-for-free"}
+RESULT: {"using":"css selector","value":".try-for-free"}
+COMMAND: GET /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.A4E63DFB4F35EF2583AD0E88903237D5.e.21/text - {}
 RESULT: {}
 ]]></system-out>
+    </testcase>
+    <testcase classname="chrome.122_0_6261_112.windows.Blazemeter_tests" name="Web 02 Verify that user should see the search icon in the BlazeMeter page" time="1.684">
+      <system-out><![CDATA[
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/url - {"url":"https://www.blazemeter.com/product/blazemeter"}
+RESULT: {"url":"https://www.blazemeter.com/product/blazemeter"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/window/maximize - {}
+RESULT: {}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element - {"using":"css selector","value":"#edit-actions"}
+RESULT: {"using":"css selector","value":"#edit-actions"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (8289 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.063D864A26FCB3998F4529DF2C6FDDBC.d.1A7D66F8D1A2E7FAAF800B63ADA74BD1.e.27","ELEMENT":"f.063D864A26FCB3998F4529DF2C6FDDBC.d.1A7D66F8D1A2E7FAAF800B63ADA74BD1.e.27"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (8289 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.063D864A26FCB3998F4529DF2C6FDDBC.d.1A7D66F8D1A2E7FAAF800B63ADA74BD1.e.27","ELEMENT":"f.063D864A26FCB3998F4529DF2C6FDDBC.d.1A7D66F8D1A2E7FAAF800B63ADA74BD1.e.27"}]}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.122_0_6261_112.windows.Blazemeter_tests" name="Web 05 Verify that if user register with existing email id" time="8.782">
+      <system-out><![CDATA[
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/url - {"url":"https://www.blazemeter.com/product/blazemeter"}
+RESULT: {"url":"https://www.blazemeter.com/product/blazemeter"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/window/maximize - {}
+RESULT: {}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element - {"using":"xpath","value":"//a[@data-title='Login']"}
+RESULT: {"using":"xpath","value":"//a[@data-title='Login']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.1170403FD496A909E94296247C3CE6EA.e.45/click - {}
+RESULT: {}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element - {"using":"xpath","value":"(//a[normalize-space()='Register'])[1]"}
+RESULT: {"using":"xpath","value":"(//a[normalize-space()='Register'])[1]"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.A403A5C09B28C66ADDB19794C006304C.e.64/click - {}
+RESULT: {}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element - {"using":"css selector","value":"#firstName"}
+RESULT: {"using":"css selector","value":"#firstName"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.380B493398B9AC0C90F936365B363552.e.68/clear - {}
+RESULT: {}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.380B493398B9AC0C90F936365B363552.e.68/value - {"text":"test"}
+RESULT: {"text":"test"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element - {"using":"css selector","value":"#lastName"}
+RESULT: {"using":"css selector","value":"#lastName"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.380B493398B9AC0C90F936365B363552.e.69/clear - {}
+RESULT: {}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.380B493398B9AC0C90F936365B363552.e.69/value - {"text":"1"}
+RESULT: {"text":"1"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element - {"using":"css selector","value":"#email"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.380B493398B9AC0C90F936365B363552.e.70/clear - {}
+RESULT: {}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.380B493398B9AC0C90F936365B363552.e.70/value - {"text":"jjj"}
+RESULT: {"text":"jjj"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element - {"using":"xpath","value":"//input[@id='user.attributes.company']"}
+RESULT: {"using":"xpath","value":"//input[@id='user.attributes.company']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.380B493398B9AC0C90F936365B363552.e.71/clear - {}
+RESULT: {}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.380B493398B9AC0C90F936365B363552.e.71/value - {"text":"zuyafrouniddu-6776@yopmail.com"}
+RESULT: {"text":"zuyafrouniddu-6776@yopmail.com"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element - {"using":"css selector","value":"#kc-register"}
+RESULT: {"using":"css selector","value":"#kc-register"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.380B493398B9AC0C90F936365B363552.e.76/click - {}
+RESULT: {}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element - {"using":"css selector","value":".kc-feedback-text"}
+RESULT: {"using":"css selector","value":".kc-feedback-text"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (8289 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.063D864A26FCB3998F4529DF2C6FDDBC.d.A2BF5BE8725EC992D6222F9ED04AB625.e.93","ELEMENT":"f.063D864A26FCB3998F4529DF2C6FDDBC.d.A2BF5BE8725EC992D6222F9ED04AB625.e.93"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (8289 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.063D864A26FCB3998F4529DF2C6FDDBC.d.A2BF5BE8725EC992D6222F9ED04AB625.e.93","ELEMENT":"f.063D864A26FCB3998F4529DF2C6FDDBC.d.A2BF5BE8725EC992D6222F9ED04AB625.e.93"}]}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element - {"using":"css selector","value":".kc-feedback-text"}
+RESULT: {"using":"css selector","value":".kc-feedback-text"}
+COMMAND: GET /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.A2BF5BE8725EC992D6222F9ED04AB625.e.93/text - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.122_0_6261_112.windows.Blazemeter_tests" name="Web 04 Verify that user should successfully signin to blaze" time="24.538">
+      <failure/>
+      <error message="Can't call scrollIntoView on element with selector &quot;//button[normalize-space()='Create a performance test']&quot; because element wasn't found"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/url - {"url":"https://www.blazemeter.com/product/blazemeter"}
+RESULT: {"url":"https://www.blazemeter.com/product/blazemeter"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/window/maximize - {}
+RESULT: {}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element - {"using":"xpath","value":"//a[@data-title='Login']"}
+RESULT: {"using":"xpath","value":"//a[@data-title='Login']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.B74E107344D064844228DCEFC094874F.e.114/click - {}
+RESULT: {}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element - {"using":"xpath","value":"//div[@class='page-navigation-item page-navigation-selected-item']"}
+RESULT: {"using":"xpath","value":"//div[@class='page-navigation-item page-navigation-selected-item']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.6DAE7FEC73DA39CB39AA3459D85F0361.e.132/click - {}
+RESULT: {}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.6DAE7FEC73DA39CB39AA3459D85F0361.e.115/clear - {}
+RESULT: {}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.6DAE7FEC73DA39CB39AA3459D85F0361.e.115/value - {"text":"noiprehideiwi-6331@yopmail.com"}
+RESULT: {"text":"noiprehideiwi-6331@yopmail.com"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.6DAE7FEC73DA39CB39AA3459D85F0361.e.117/clear - {}
+RESULT: {}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.6DAE7FEC73DA39CB39AA3459D85F0361.e.117/value - {"text":"Bubun@1245"}
+RESULT: {"text":"Bubun@1245"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element - {"using":"xpath","value":"//input[@id='kc-login']"}
+RESULT: {"using":"xpath","value":"//input[@id='kc-login']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element/f.063D864A26FCB3998F4529DF2C6FDDBC.d.6DAE7FEC73DA39CB39AA3459D85F0361.e.121/click - {}
+RESULT: {}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/element - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/elements - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/elements - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/elements - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/elements - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/elements - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/elements - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/elements - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/elements - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/elements - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/elements - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/elements - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/elements - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/elements - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/elements - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/elements - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/elements - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/elements - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/elements - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/elements - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/c7510fa33be86afa006764c9ade8926a/elements - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: GET /session/c7510fa33be86afa006764c9ade8926a/screenshot - {}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {}
+COMMAND: DELETE /session/c7510fa33be86afa006764c9ade8926a - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Can't call scrollIntoView on element with selector "//button[normalize-space()='Create a performance test']" because element wasn't found
+    at async BlazeMeter.LogintoBlaze (D:\webdriverIO\Webdriverio_project_01\test\pages\BlazeMeter.page.js:100:5)
+    at async Context.<anonymous> (D:\webdriverIO\Webdriverio_project_01\test\specs\blazemetertest.spec.js:25:5)
+]]></system-err>
     </testcase>
   </testsuite>
 </testsuites>

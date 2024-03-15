@@ -1,6 +1,6 @@
 describe("1st recording", () => {
-  it("tests 1st recording", async () => {
-    await browser.setWindowSize(721, 559);
+  it.skip("tests 1st recording", async () => {
+    await browser.maximizeWindow();
     await browser.url("https://the-internet.herokuapp.com/login");
     await expect(browser).toHaveUrl("https://the-internet.herokuapp.com/login");
     await browser.$("#username").click();

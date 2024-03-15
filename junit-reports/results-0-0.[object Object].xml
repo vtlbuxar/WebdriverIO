@@ -1,49 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="1" failures="0" errors="0" skipped="0">
-  <testsuite name="Blazemeter tests" timestamp="2024-03-15T14:17:39" time="20.896" tests="1" failures="0" errors="0" skipped="0">
+<testsuites tests="1" failures="1" errors="1" skipped="0">
+  <testsuite name="1st recording" timestamp="2024-03-15T15:15:23" time="5.458" tests="1" failures="1" errors="1" skipped="0">
     <properties>
       <property name="specId" value="0"/>
-      <property name="suiteName" value="Blazemeter tests"/>
+      <property name="suiteName" value="1st recording"/>
       <property name="capabilities" value="chrome.122_0_6261_112.windows"/>
-      <property name="file" value="file:///D:/webdriverIO/Webdriverio_project_01/test/specs/blazemetertest.spec.js"/>
+      <property name="file" value="file:///D:/webdriverIO/Webdriverio_project_01/test/specs/1st%20recording.js"/>
     </properties>
-    <testcase classname="chrome.122_0_6261_112.windows.Blazemeter_tests" name="Web 04 Verify that user should successfully signin to blaze" time="20.894">
+    <testcase classname="chrome.122_0_6261_112.windows.1st_recording" name="tests 1st recording" time="5.458">
+      <failure/>
+      <error message="invalid selector: An invalid or illegal selector was specified&#xA;  (Session info: chrome=122.0.6261.112)"/>
       <system-out><![CDATA[
-COMMAND: POST /session/c3d4392666aad86ae6ad2cc72b9d5547/url - {"url":"https://www.blazemeter.com/product/blazemeter"}
-RESULT: {"url":"https://www.blazemeter.com/product/blazemeter"}
-COMMAND: POST /session/c3d4392666aad86ae6ad2cc72b9d5547/window/maximize - {}
+COMMAND: POST /session/bc4441b872e4ddebc6ec460015699def/window/maximize - {}
 RESULT: {}
-COMMAND: POST /session/c3d4392666aad86ae6ad2cc72b9d5547/element - {"using":"xpath","value":"//a[@data-title='Login']"}
-RESULT: {"using":"xpath","value":"//a[@data-title='Login']"}
-COMMAND: POST /session/c3d4392666aad86ae6ad2cc72b9d5547/element/f.65AEB628568AC430A7116DDE95C6E1A5.d.972CFF5A853CAB6A796DA45874955BDA.e.61/click - {}
-RESULT: {}
-COMMAND: POST /session/c3d4392666aad86ae6ad2cc72b9d5547/element - {"using":"xpath","value":"//div[@class='page-navigation-item page-navigation-selected-item']"}
-RESULT: {"using":"xpath","value":"//div[@class='page-navigation-item page-navigation-selected-item']"}
-COMMAND: POST /session/c3d4392666aad86ae6ad2cc72b9d5547/element/f.65AEB628568AC430A7116DDE95C6E1A5.d.79A772EA2E4E3370FAC74DC05180F846.e.79/click - {}
-RESULT: {}
-COMMAND: POST /session/c3d4392666aad86ae6ad2cc72b9d5547/element - {"using":"css selector","value":"#username"}
+COMMAND: POST /session/bc4441b872e4ddebc6ec460015699def/url - {"url":"https://the-internet.herokuapp.com/login"}
+RESULT: {"url":"https://the-internet.herokuapp.com/login"}
+COMMAND: POST /session/bc4441b872e4ddebc6ec460015699def/element - {"using":"css selector","value":"#username"}
 RESULT: {"using":"css selector","value":"#username"}
-COMMAND: POST /session/c3d4392666aad86ae6ad2cc72b9d5547/element/f.65AEB628568AC430A7116DDE95C6E1A5.d.79A772EA2E4E3370FAC74DC05180F846.e.62/clear - {}
+COMMAND: POST /session/bc4441b872e4ddebc6ec460015699def/element/f.032420CBB9551D43CA297D7010195FD8.d.AE11BACAB93CBF58F50AD2074F05CAF2.e.4/click - {}
 RESULT: {}
-COMMAND: POST /session/c3d4392666aad86ae6ad2cc72b9d5547/element/f.65AEB628568AC430A7116DDE95C6E1A5.d.79A772EA2E4E3370FAC74DC05180F846.e.62/value - {"text":"noiprehideiwi-6331@yopmail.com"}
-RESULT: {"text":"noiprehideiwi-6331@yopmail.com"}
-COMMAND: POST /session/c3d4392666aad86ae6ad2cc72b9d5547/element - {"using":"css selector","value":"#password"}
+COMMAND: POST /session/bc4441b872e4ddebc6ec460015699def/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/bc4441b872e4ddebc6ec460015699def/element/f.032420CBB9551D43CA297D7010195FD8.d.AE11BACAB93CBF58F50AD2074F05CAF2.e.4/clear - {}
+RESULT: {}
+COMMAND: POST /session/bc4441b872e4ddebc6ec460015699def/element/f.032420CBB9551D43CA297D7010195FD8.d.AE11BACAB93CBF58F50AD2074F05CAF2.e.4/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/bc4441b872e4ddebc6ec460015699def/element - {"using":"css selector","value":"#password"}
 RESULT: {"using":"css selector","value":"#password"}
-COMMAND: POST /session/c3d4392666aad86ae6ad2cc72b9d5547/element/f.65AEB628568AC430A7116DDE95C6E1A5.d.79A772EA2E4E3370FAC74DC05180F846.e.64/clear - {}
+COMMAND: POST /session/bc4441b872e4ddebc6ec460015699def/element/f.032420CBB9551D43CA297D7010195FD8.d.AE11BACAB93CBF58F50AD2074F05CAF2.e.5/click - {}
 RESULT: {}
-COMMAND: POST /session/c3d4392666aad86ae6ad2cc72b9d5547/element/f.65AEB628568AC430A7116DDE95C6E1A5.d.79A772EA2E4E3370FAC74DC05180F846.e.64/value - {"text":"Bubun@1245"}
-RESULT: {"text":"Bubun@1245"}
-COMMAND: POST /session/c3d4392666aad86ae6ad2cc72b9d5547/element - {"using":"xpath","value":"//input[@id='kc-login']"}
-RESULT: {"using":"xpath","value":"//input[@id='kc-login']"}
-COMMAND: POST /session/c3d4392666aad86ae6ad2cc72b9d5547/element/f.65AEB628568AC430A7116DDE95C6E1A5.d.79A772EA2E4E3370FAC74DC05180F846.e.68/click - {}
+COMMAND: POST /session/bc4441b872e4ddebc6ec460015699def/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/bc4441b872e4ddebc6ec460015699def/element/f.032420CBB9551D43CA297D7010195FD8.d.AE11BACAB93CBF58F50AD2074F05CAF2.e.5/clear - {}
 RESULT: {}
-COMMAND: POST /session/c3d4392666aad86ae6ad2cc72b9d5547/element - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
-RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
-COMMAND: POST /session/c3d4392666aad86ae6ad2cc72b9d5547/element - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
-RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
-COMMAND: DELETE /session/c3d4392666aad86ae6ad2cc72b9d5547 - {}
+COMMAND: POST /session/bc4441b872e4ddebc6ec460015699def/element/f.032420CBB9551D43CA297D7010195FD8.d.AE11BACAB93CBF58F50AD2074F05CAF2.e.5/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/bc4441b872e4ddebc6ec460015699def/element - {"using":"css selector","value":"xpath///*[@id=\"login\"]/button/i"}
+COMMAND: GET /session/bc4441b872e4ddebc6ec460015699def/screenshot - {}
+RESULT: {}
+COMMAND: DELETE /session/bc4441b872e4ddebc6ec460015699def - {}
 RESULT: {}
 ]]></system-out>
+      <system-err><![CDATA[
+invalid selector: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=122.0.6261.112)
+    at async Context.<anonymous> (D:\webdriverIO\Webdriverio_project_01\test\specs\1st recording.js:10:5)
+]]></system-err>
     </testcase>
   </testsuite>
 </testsuites>

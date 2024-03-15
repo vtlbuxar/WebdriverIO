@@ -21,7 +21,7 @@ describe("Blazemeter tests", async () => {
       WebTestdata.Blaze.Email
     );
   });
-  it.only("[Web-04]Verify that user should successfully signin to blaze", async () => {
+  it("[Web-04]Verify that user should successfully signin to blaze", async () => {
     await BlazeMeterPage.LogintoBlaze(
       WebTestdata.yopmail.UserEmail,
       WebTestdata.yopmail.Password

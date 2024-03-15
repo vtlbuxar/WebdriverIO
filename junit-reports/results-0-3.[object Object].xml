@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="1" failures="0" errors="0" skipped="0">
-  <testsuite name="My Login application" timestamp="2024-03-15T13:59:20" time="5.75" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="My Login application" timestamp="2024-03-15T14:19:30" time="6.865" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="My Login application"/>
       <property name="capabilities" value="chrome.122_0_6261_112.windows"/>
       <property name="file" value="file:///D:/webdriverIO/Webdriverio_project_01/test/specs/test.e2e.js"/>
     </properties>
-    <testcase classname="chrome.122_0_6261_112.windows.My_Login_application" name="should login with valid credentials" time="5.749">
+    <testcase classname="chrome.122_0_6261_112.windows.My_Login_application" name="should login with valid credentials" time="6.863">
       <system-out><![CDATA[
-COMMAND: POST /session/9e351f431fa28efbc0f34b43e75c6e31/url - {"url":"https://the-internet.herokuapp.com/login"}
+COMMAND: POST /session/152d1050f2a179d83da5382bf22a8d61/url - {"url":"https://the-internet.herokuapp.com/login"}
 RESULT: {"url":"https://the-internet.herokuapp.com/login"}
-COMMAND: POST /session/9e351f431fa28efbc0f34b43e75c6e31/element - {"using":"css selector","value":"#username"}
+COMMAND: POST /session/152d1050f2a179d83da5382bf22a8d61/element - {"using":"css selector","value":"#username"}
 RESULT: {"using":"css selector","value":"#username"}
-COMMAND: POST /session/9e351f431fa28efbc0f34b43e75c6e31/element/f.EC188E99D2F113E5F6A5BFDEA1B75B36.d.413354BB5C5A53F150BCF4D53ECEB405.e.3/clear - {}
+COMMAND: POST /session/152d1050f2a179d83da5382bf22a8d61/element/f.7B86A221A3793CC36F7BBC28DEA29AE5.d.51474E8ACD86F57160FEDA8312A27BCF.e.4/clear - {}
 RESULT: {}
-COMMAND: POST /session/9e351f431fa28efbc0f34b43e75c6e31/element/f.EC188E99D2F113E5F6A5BFDEA1B75B36.d.413354BB5C5A53F150BCF4D53ECEB405.e.3/value - {"text":"tomsmith"}
+COMMAND: POST /session/152d1050f2a179d83da5382bf22a8d61/element/f.7B86A221A3793CC36F7BBC28DEA29AE5.d.51474E8ACD86F57160FEDA8312A27BCF.e.4/value - {"text":"tomsmith"}
 RESULT: {"text":"tomsmith"}
-COMMAND: POST /session/9e351f431fa28efbc0f34b43e75c6e31/element - {"using":"css selector","value":"#password"}
+COMMAND: POST /session/152d1050f2a179d83da5382bf22a8d61/element - {"using":"css selector","value":"#password"}
 RESULT: {"using":"css selector","value":"#password"}
-COMMAND: POST /session/9e351f431fa28efbc0f34b43e75c6e31/element/f.EC188E99D2F113E5F6A5BFDEA1B75B36.d.413354BB5C5A53F150BCF4D53ECEB405.e.4/clear - {}
+COMMAND: POST /session/152d1050f2a179d83da5382bf22a8d61/element/f.7B86A221A3793CC36F7BBC28DEA29AE5.d.51474E8ACD86F57160FEDA8312A27BCF.e.5/clear - {}
 RESULT: {}
-COMMAND: POST /session/9e351f431fa28efbc0f34b43e75c6e31/element/f.EC188E99D2F113E5F6A5BFDEA1B75B36.d.413354BB5C5A53F150BCF4D53ECEB405.e.4/value - {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/152d1050f2a179d83da5382bf22a8d61/element/f.7B86A221A3793CC36F7BBC28DEA29AE5.d.51474E8ACD86F57160FEDA8312A27BCF.e.5/value - {"text":"SuperSecretPassword!"}
 RESULT: {"text":"SuperSecretPassword!"}
-COMMAND: POST /session/9e351f431fa28efbc0f34b43e75c6e31/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/152d1050f2a179d83da5382bf22a8d61/element - {"using":"css selector","value":"button[type=\"submit\"]"}
 RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
-COMMAND: POST /session/9e351f431fa28efbc0f34b43e75c6e31/element/f.EC188E99D2F113E5F6A5BFDEA1B75B36.d.413354BB5C5A53F150BCF4D53ECEB405.e.5/click - {}
+COMMAND: POST /session/152d1050f2a179d83da5382bf22a8d61/element/f.7B86A221A3793CC36F7BBC28DEA29AE5.d.51474E8ACD86F57160FEDA8312A27BCF.e.6/click - {}
 RESULT: {}
-COMMAND: POST /session/9e351f431fa28efbc0f34b43e75c6e31/element - {"using":"css selector","value":"#flash"}
+COMMAND: POST /session/152d1050f2a179d83da5382bf22a8d61/element - {"using":"css selector","value":"#flash"}
 RESULT: {"using":"css selector","value":"#flash"}
-COMMAND: POST /session/9e351f431fa28efbc0f34b43e75c6e31/elements - {"using":"css selector","value":"#flash"}
+COMMAND: POST /session/152d1050f2a179d83da5382bf22a8d61/elements - {"using":"css selector","value":"#flash"}
 RESULT: {"using":"css selector","value":"#flash"}
-COMMAND: POST /session/9e351f431fa28efbc0f34b43e75c6e31/element - {"using":"css selector","value":"#flash"}
+COMMAND: POST /session/152d1050f2a179d83da5382bf22a8d61/element - {"using":"css selector","value":"#flash"}
 RESULT: {"using":"css selector","value":"#flash"}
-COMMAND: GET /session/9e351f431fa28efbc0f34b43e75c6e31/element/f.EC188E99D2F113E5F6A5BFDEA1B75B36.d.2B3BF7AB697B3D661D0C848A60EA6FFB.e.14/text - {}
+COMMAND: GET /session/152d1050f2a179d83da5382bf22a8d61/element/f.7B86A221A3793CC36F7BBC28DEA29AE5.d.B059DFE56D2FD5A096DD02801DB1F8A3.e.14/text - {}
 RESULT: {}
-COMMAND: DELETE /session/9e351f431fa28efbc0f34b43e75c6e31 - {}
+COMMAND: DELETE /session/152d1050f2a179d83da5382bf22a8d61 - {}
 RESULT: {}
 ]]></system-out>
     </testcase>

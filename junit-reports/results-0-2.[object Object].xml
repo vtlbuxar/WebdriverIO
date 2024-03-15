@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="1" failures="0" errors="0" skipped="0">
-  <testsuite name="Demo test" timestamp="2024-03-15T13:59:20" time="35.188" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Demo test" timestamp="2024-03-15T14:19:30" time="56.703" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Demo test"/>
       <property name="capabilities" value="chrome.122_0_6261_112.windows"/>
       <property name="file" value="file:///D:/webdriverIO/Webdriverio_project_01/test/specs/login.spec.js"/>
     </properties>
-    <testcase classname="chrome.122_0_6261_112.windows.Demo_test" name="Login test" time="35.185">
+    <testcase classname="chrome.122_0_6261_112.windows.Demo_test" name="Login test" time="56.703">
       <system-out><![CDATA[
-COMMAND: POST /session/dcee277e88226cb3cb028f1857d856e6/url - {"url":"https://www.timeanddate.com/worldclock/philippines/manila"}
+COMMAND: POST /session/48be163f1ab5aca157d88c1bc081bf4c/url - {"url":"https://www.timeanddate.com/worldclock/philippines/manila"}
 RESULT: {"url":"https://www.timeanddate.com/worldclock/philippines/manila"}
-COMMAND: POST /session/dcee277e88226cb3cb028f1857d856e6/element - {"using":"xpath","value":"//h1[normalize-space()='Current Local Time in Manila, Philippines']"}
+COMMAND: POST /session/48be163f1ab5aca157d88c1bc081bf4c/element - {"using":"xpath","value":"//h1[normalize-space()='Current Local Time in Manila, Philippines']"}
 RESULT: {"using":"xpath","value":"//h1[normalize-space()='Current Local Time in Manila, Philippines']"}
-COMMAND: GET /session/dcee277e88226cb3cb028f1857d856e6/element/f.5A7893AEE97B3CFE11BFD9D8BC6D101A.d.13152870E349F32FEC34F2C5885EAFBB.e.22/text - {}
+COMMAND: GET /session/48be163f1ab5aca157d88c1bc081bf4c/element/f.0136CD228D6365C0B429FEE4EEF6FA7D.d.8AFA0F364610F93969D99B30A2BBDCDD.e.22/text - {}
 RESULT: {}
-COMMAND: DELETE /session/dcee277e88226cb3cb028f1857d856e6 - {}
+COMMAND: DELETE /session/48be163f1ab5aca157d88c1bc081bf4c - {}
 RESULT: {}
 ]]></system-out>
     </testcase>

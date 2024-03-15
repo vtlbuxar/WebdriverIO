@@ -1,16 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="1" failures="0" errors="0" skipped="1">
-  <testsuite name="1st recording" timestamp="2024-03-12T15:59:57" time="0.002" tests="1" failures="0" errors="0" skipped="1">
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Blazemeter tests" timestamp="2024-03-15T13:32:25" time="16.178" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
-      <property name="suiteName" value="1st recording"/>
+      <property name="suiteName" value="Blazemeter tests"/>
       <property name="capabilities" value="chrome.122_0_6261_112.windows"/>
-      <property name="file" value="file:///D:/webdriverIO/Webdriverio_project_01/test/specs/1st%20recording.js"/>
+      <property name="file" value="file:///D:/webdriverIO/Webdriverio_project_01/test/specs/blazemetertest.spec.js"/>
     </properties>
-    <testcase classname="chrome.122_0_6261_112.windows.1st_recording" name="tests 1st recording" time="0">
-      <skipped/>
+    <testcase classname="chrome.122_0_6261_112.windows.Blazemeter_tests" name="Web 04 Verify that user should see the REQUEST A DEMO button in the BlazeMeter page" time="16.176">
       <system-out><![CDATA[
-COMMAND: DELETE /session/c3dcf552fa0037a4a05aa4ada442877e - {}
+COMMAND: POST /session/777ddef6c0b1bbe0ed68a0a6557e5dd6/url - {"url":"https://www.blazemeter.com/product/blazemeter"}
+RESULT: {"url":"https://www.blazemeter.com/product/blazemeter"}
+COMMAND: POST /session/777ddef6c0b1bbe0ed68a0a6557e5dd6/window/maximize - {}
+RESULT: {}
+COMMAND: POST /session/777ddef6c0b1bbe0ed68a0a6557e5dd6/element - {"using":"xpath","value":"//a[@data-title='Login']"}
+RESULT: {"using":"xpath","value":"//a[@data-title='Login']"}
+COMMAND: POST /session/777ddef6c0b1bbe0ed68a0a6557e5dd6/element/f.801E2CB7426FA997B408EA8D1FDA1AB1.d.0F67F5FDA8857D1A7372EFDF5FEBA0E2.e.61/click - {}
+RESULT: {}
+COMMAND: POST /session/777ddef6c0b1bbe0ed68a0a6557e5dd6/element - {"using":"xpath","value":"//div[@class='page-navigation-item page-navigation-selected-item']"}
+RESULT: {"using":"xpath","value":"//div[@class='page-navigation-item page-navigation-selected-item']"}
+COMMAND: POST /session/777ddef6c0b1bbe0ed68a0a6557e5dd6/element/f.801E2CB7426FA997B408EA8D1FDA1AB1.d.FC221CED46D44A5540F12474A3295838.e.79/click - {}
+RESULT: {}
+COMMAND: POST /session/777ddef6c0b1bbe0ed68a0a6557e5dd6/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/777ddef6c0b1bbe0ed68a0a6557e5dd6/element/f.801E2CB7426FA997B408EA8D1FDA1AB1.d.FC221CED46D44A5540F12474A3295838.e.62/clear - {}
+RESULT: {}
+COMMAND: POST /session/777ddef6c0b1bbe0ed68a0a6557e5dd6/element/f.801E2CB7426FA997B408EA8D1FDA1AB1.d.FC221CED46D44A5540F12474A3295838.e.62/value - {"text":"noiprehideiwi-6331@yopmail.com"}
+RESULT: {"text":"noiprehideiwi-6331@yopmail.com"}
+COMMAND: POST /session/777ddef6c0b1bbe0ed68a0a6557e5dd6/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/777ddef6c0b1bbe0ed68a0a6557e5dd6/element/f.801E2CB7426FA997B408EA8D1FDA1AB1.d.FC221CED46D44A5540F12474A3295838.e.64/clear - {}
+RESULT: {}
+COMMAND: POST /session/777ddef6c0b1bbe0ed68a0a6557e5dd6/element/f.801E2CB7426FA997B408EA8D1FDA1AB1.d.FC221CED46D44A5540F12474A3295838.e.64/value - {"text":"Bubun@1245"}
+RESULT: {"text":"Bubun@1245"}
+COMMAND: POST /session/777ddef6c0b1bbe0ed68a0a6557e5dd6/element - {"using":"xpath","value":"//input[@id='kc-login']"}
+RESULT: {"using":"xpath","value":"//input[@id='kc-login']"}
+COMMAND: POST /session/777ddef6c0b1bbe0ed68a0a6557e5dd6/element/f.801E2CB7426FA997B408EA8D1FDA1AB1.d.FC221CED46D44A5540F12474A3295838.e.68/click - {}
+RESULT: {}
+COMMAND: POST /session/777ddef6c0b1bbe0ed68a0a6557e5dd6/element - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: POST /session/777ddef6c0b1bbe0ed68a0a6557e5dd6/element - {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+RESULT: {"using":"xpath","value":"//button[normalize-space()='Create a performance test']"}
+COMMAND: DELETE /session/777ddef6c0b1bbe0ed68a0a6557e5dd6 - {}
 RESULT: {}
 ]]></system-out>
     </testcase>

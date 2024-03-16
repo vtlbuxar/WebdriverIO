@@ -65,6 +65,15 @@ class BlazeMeter {
   get creataPerformanceTest() {
     return $("//button[normalize-space()='Create a performance test']");
   }
+  get WelcomeText() {
+    return $("//strong[normalize-space()='Welcome!']");
+  }
+  get HiiStick() {
+    return $("//span[@class='hi-balloon']");
+  }
+  get WelcomeSpiel() {
+    return $("(//span[@class='description'])[1]");
+  }
 
   async Verifyperfocebtn() {
     await this.PerforceTAP.click();
@@ -97,8 +106,19 @@ class BlazeMeter {
     await this.Username.setValue(User_name);
     await this.password.setValue(Pass_word);
     await this.signinBTN_AfterUN_PW.click();
-    await browser.pause(10000);
-    await await this.creataPerformanceTest.isDisplayed(true);
+    // await await this.creataPerformanceTest.isDisplayed(true);
+  }
+  async toverifyFuntionalTab() {
+    await this.WelcomeText.isDisplayed(true);
+    await this.HiiStick.isDisplayed(true);
+    const spiel = await this.WelcomeSpiel;
+    await spiel.waitUntil(async function () {
+      return (
+        (await this.getText()) ===
+        "We're happy to have you on board! Everything is set up for you to start testing"
+      );
+    });
+    await this.WelcomeSpiel.isDisplayed(true);
   }
 }
 module.exports = new BlazeMeter();

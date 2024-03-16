@@ -1,41 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="1" failures="1" errors="1" skipped="0">
-  <testsuite name="demo test" timestamp="2024-03-15T14:19:31" time="9.232" tests="1" failures="1" errors="1" skipped="0">
+<testsuites tests="1" failures="0" errors="0" skipped="1">
+  <testsuite name="demo test" timestamp="2024-03-15T15:20:54" time="0.002" tests="1" failures="0" errors="0" skipped="1">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="demo test"/>
       <property name="capabilities" value="chrome.122_0_6261_112.windows"/>
       <property name="file" value="file:///D:/webdriverIO/Webdriverio_project_01/test/specs/test1.spec.js"/>
     </properties>
-    <testcase classname="chrome.122_0_6261_112.windows.demo_test" name="my 1st test" time="9.231">
-      <failure/>
-      <error message="element click intercepted: Element &lt;input class=&quot;gNO89b&quot; value=&quot;Google Search&quot; aria-label=&quot;Google Search&quot; name=&quot;btnK&quot; role=&quot;button&quot; tabindex=&quot;0&quot; type=&quot;submit&quot; data-ved=&quot;0ahUKEwis5-ix8fWEAxUoUGwGHeMdACoQ4dUDCBE&quot;> is not clickable at point (432, 272). Other element would receive the click: &lt;b>...&lt;/b>&#xA;  (Session info: chrome=122.0.6261.112)"/>
+    <testcase classname="chrome.122_0_6261_112.windows.demo_test" name="my 1st test" time="0">
+      <skipped/>
       <system-out><![CDATA[
-COMMAND: POST /session/7fd82d900f479a14358496a3fa14c001/element - {"using":"css selector","value":"[name=\"q\"]"}
-COMMAND: POST /session/7fd82d900f479a14358496a3fa14c001/url - {"url":"https://www.google.com/"}
-RESULT: {"using":"css selector","value":"[name=\"q\"]"}
-COMMAND: POST /session/7fd82d900f479a14358496a3fa14c001/elements - {"using":"css selector","value":"[name=\"q\"]"}
-RESULT: {"url":"https://www.google.com/"}
-RESULT: {"using":"css selector","value":"[name=\"q\"]"}
-COMMAND: POST /session/7fd82d900f479a14358496a3fa14c001/element - {"using":"css selector","value":"[name=\"q\"]"}
-RESULT: {"using":"css selector","value":"[name=\"q\"]"}
-COMMAND: POST /session/7fd82d900f479a14358496a3fa14c001/element/f.CFE1D7013085EBE35620F2FD8EAD4787.d.5C474B4F73B4919D5CC529623DF07E64.e.2/clear - {}
-RESULT: {}
-COMMAND: POST /session/7fd82d900f479a14358496a3fa14c001/element/f.CFE1D7013085EBE35620F2FD8EAD4787.d.5C474B4F73B4919D5CC529623DF07E64.e.2/value - {"text":"Webdriverio"}
-RESULT: {"text":"Webdriverio"}
-COMMAND: POST /session/7fd82d900f479a14358496a3fa14c001/element - {"using":"xpath","value":"(//input[@name='btnK'])[2]"}
-RESULT: {"using":"xpath","value":"(//input[@name='btnK'])[2]"}
-COMMAND: POST /session/7fd82d900f479a14358496a3fa14c001/element/f.CFE1D7013085EBE35620F2FD8EAD4787.d.5C474B4F73B4919D5CC529623DF07E64.e.18/click - {}
-COMMAND: GET /session/7fd82d900f479a14358496a3fa14c001/screenshot - {}
-RESULT: {}
-COMMAND: DELETE /session/7fd82d900f479a14358496a3fa14c001 - {}
+COMMAND: DELETE /session/a9001503d961a5e929015d3d11f52d10 - {}
 RESULT: {}
 ]]></system-out>
-      <system-err><![CDATA[
-element click intercepted: element click intercepted: Element <input class="gNO89b" value="Google Search" aria-label="Google Search" name="btnK" role="button" tabindex="0" type="submit" data-ved="0ahUKEwis5-ix8fWEAxUoUGwGHeMdACoQ4dUDCBE"> is not clickable at point (432, 272). Other element would receive the click: <b>...</b>
-  (Session info: chrome=122.0.6261.112)
-    at async Context.<anonymous> (D:\webdriverIO\Webdriverio_project_01\test\specs\test1.spec.js:7:5)
-]]></system-err>
     </testcase>
   </testsuite>
 </testsuites>

@@ -3,7 +3,7 @@ const WebTestdata = require("../../testdata/WebTestdata.json");
 
 describe("Blazemeter tests", async () => {
   beforeEach(async () => {
-    await browser.url("https://www.blazemeter.com/product/blazemeter");
+    await browser.url(WebTestdata.Blaze.BlazeURL);
     await browser.maximizeWindow();
   });
   it("[Web-01]Verify that upon tapping on Perforce Button user should see the TRY FREE button ", async () => {
@@ -26,5 +26,12 @@ describe("Blazemeter tests", async () => {
       WebTestdata.yopmail.UserEmail,
       WebTestdata.yopmail.Password
     );
+  });
+  it.only("[Web-06]Verify that Upon tapping on functional tap Welcome text should display", async () => {
+    await BlazeMeterPage.LogintoBlaze(
+      WebTestdata.yopmail.UserEmail,
+      WebTestdata.yopmail.Password
+    );
+    await BlazeMeterPage.toverifyFuntionalTab();
   });
 });
